@@ -23,7 +23,17 @@
         -What is the customer's email? I must make sure the email is valid. Email addresses follow a consistent pattern
         -What colour should this T-shirt be? I must provide 3 options. How will I ensure they do not choose other colours?
         -What size does the customer want? I must provide the following 6 options: XS, S, M, L, XL, XXL -->
-
+         <fieldset>
+            <legend>Customer Information</legend>
+         <p>
+              <label for="customerName">Customer Name</label>
+              <input id="customerName" name="customerName" type="text" pattern=".*\S.*\S.*" required>  
+         </p>   
+        <p>
+              <label for="emailAddress">Email Address</label>
+              <input id="emailAddress" name="emailAddress" type="email" required> 
+        </p>
+        </fieldset>
         
       </form>
     </main>
