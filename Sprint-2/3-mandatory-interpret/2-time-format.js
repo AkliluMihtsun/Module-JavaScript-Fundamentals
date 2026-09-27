@@ -35,6 +35,7 @@ console.log(result);
 // d) totalMinutes = (movieLength - remainingSeconds) / 60 in this expression
 // 1. (movieLength - remainingSeconds) the values  inside the parenthesis is calculated first then it is divided by 60
 //  then the value of expression is assigned to the var totalMinutes
+// so the expression simply means that we are trying to convert the movie length in seconds into full minutes by removing the remaining seconds
 
 // e) the variable result represents the formatted time in hours:minutes:seconds. I would rename it time
 
