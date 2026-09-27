@@ -39,3 +39,5 @@ console.log(`The percentage change is ${percentageChange}`);
 // all left then is just the String digits without ","
 // 2. Number("String digit without comma") and this function converts the String digit to number digit
 // and finally  Number(carPrice.replaceAll(",","")) expression gives us number
+
+// the purpose of Number(carPrice.replaceAll(",","")) is to convert the carPrice string with commas into a clean, usable number so we can perform mathematical calculations on it
