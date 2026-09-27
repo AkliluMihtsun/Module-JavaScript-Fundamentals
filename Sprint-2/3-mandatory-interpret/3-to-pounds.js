@@ -65,3 +65,7 @@ console.log(`£${pounds}.${pence}`);
 // since our String length is 2 the method will do nothing
 
 // 6. Finally line 18 will print out the desired format we have added what to be printed inside the back-ticks if they are variables we will put them in ${}
+
+// note on line 5 and line 11
+// "," was simply added at the end of the second argument just to tell that we have finished listing our arguments
+// it does not mean we are going to put third argument. It can be ignored also it does not make a difference
